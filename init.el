@@ -1,7 +1,6 @@
 ;; make sure the target directory is on your load-path
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/vendor")
-(add-to-list 'load-path "~/Projects/github/js2-mode")
 
 
 ;; Core libraries
