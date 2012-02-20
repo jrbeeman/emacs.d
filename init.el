@@ -125,6 +125,7 @@
 
 
 ; Drupal mode
+(add-to-list 'load-path "~/.emacs.d/vendor/php-mode")
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 (autoload 'drupal-mode "drupal-mode" "Mode for editing Drupal code." t)
 (add-to-list 'auto-mode-alist '("\\.\\(module\\|test\\|install\\|theme\\)$" . drupal-mode))
