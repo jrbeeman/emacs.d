@@ -7,3 +7,6 @@
 [submodule "vendor/php-mode"]
 	path = vendor/php-mode
 	url = https://github.com/ejmr/php-mode.git
+[submodule "vendor/markdown-mode"]
+	path = vendor/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
