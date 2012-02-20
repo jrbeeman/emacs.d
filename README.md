@@ -18,5 +18,5 @@ This is currently built against [Emacs 24 pre-release on OS X](http://emacsforma
 # Installation / setup
 
   * Clone this repository
-  * `git submodule init`p
+  * `git submodule init`
   * `git submodule update`
