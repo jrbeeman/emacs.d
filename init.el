@@ -115,7 +115,7 @@
  frame-background-mode (quote dark))
 
 ;; Theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/zenburn")
 (load-theme 'zenburn t)
 
 
