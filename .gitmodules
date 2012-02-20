@@ -1,3 +1,6 @@
 [submodule "themes/zenburn"]
 	path = themes/zenburn
 	url = https://github.com/bbatsov/zenburn-emacs.git
+[submodule "vendor/js2-mode"]
+	path = vendor/js2-mode
+	url = https://github.com/mooz/js2-mode.git
