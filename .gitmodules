@@ -1,0 +1,3 @@
+[submodule "themes/zenburn"]
+	path = themes/zenburn
+	url = https://github.com/bbatsov/zenburn-emacs.git
