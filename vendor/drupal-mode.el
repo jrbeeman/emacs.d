@@ -1,8 +1,10 @@
 ;;; drupal-mode.el --- major mode for Drupal coding
+;;; Requires php-mode: https://github.com/ejmr/php-mode
 
 ;;;###autoload
 (define-derived-mode drupal-mode php-mode "Drupal"
   "Major mode for Drupal coding.\n\n\\{drupal-mode-map}"
+  (setq tab-width 2)
   (setq c-basic-offset 2)
   (setq indent-tabs-mode nil)
   (setq fill-column 78)
