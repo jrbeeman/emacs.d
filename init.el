@@ -109,7 +109,7 @@
 (add-to-list 'default-frame-alist '(alpha . (93 93)))
 
 ;; Font
-(set-face-attribute 'default nil :font "-apple-monaco-medium-r-normal--14-140-72-72-m-140-iso10646-1")
+(set-face-attribute 'default nil :font "-apple-monaco-medium-r-normal--13-140-72-72-m-140-iso10646-1")
 
 (setq
  frame-background-mode (quote dark))
