@@ -129,9 +129,11 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/drupal-mode")
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 (autoload 'drupal-mode "drupal-mode" "Mode for editing Drupal code." t)
+(autoload 'drupal-css-mode "drupal-css-mode" "Mode for editing Drupal CSS code." t)
 (add-to-list 'auto-mode-alist '("\\.\\(module\\|test\\|install\\|theme\\)$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.\\(php\\|inc\\)$" . drupal-mode))
 (add-to-list 'auto-mode-alist '("\\.info" . conf-windows-mode))
+(add-to-list 'auto-mode-alist '("\\.css" . drupal-css-mode))
 
 
 ; JS2 (JavaScript) mode
